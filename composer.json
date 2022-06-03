@@ -1,0 +1,23 @@
+{
+    "name": "tolkam/template-extras",
+    "description": "Useful utils for template component",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Kanstantsin Kulesh",
+            "email": "kk@tolkam.com",
+            "homepage": "https://www.tolkam.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tolkam\\Template\\Extras\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "tolkam/template": "^2.0",
+        "laminas/laminas-diactoros": "^2.8"
+    }
+}
